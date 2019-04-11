@@ -22,12 +22,12 @@ Bitcoin is a way for people to store monetary value into a digital asset. Like b
 	* Click on "Generate & Print Paper Wallets"
 	* Move your mouse around without any patterns and/or type on the input box provided. This is done to create entropy to create the wallet.
 	![Bitcoin wallet](bwallet.PNG)
-	* _Careful: There are a few potential problems with this method.
-	One, printing the wallet's private key may remain stored in the printer's cache, vulnerable to be found by someone. 
+	* *_Careful: There are a few potential problems with this method._*
+		* Printing the wallet's private key may remain stored in the printer's cache, vulnerable to be found by someone. 
 	
-	Two, it promotes address reuse which could cause privacy issues, as your wallet's balance is public on the blockchain. 
+		* Promotes address reuse which could cause privacy issues, as your wallet's balance is public on the blockchain. 
 	
-	Three, the wallet is susceptible to physical damage, and if there are no multiple backups, you may lose access to your Bitcoins._
+		* The wallet is susceptible to physical damage, and if there are no multiple backups, you may lose access to your Bitcoins._
 	
 2. Hardware Wallets
 	* Hardware wallets are the step-up from paper wallets. They are devices that often look like USBs whose sole purpose is to keep Bitcoin wallets safe. They offer a variety of security features:
@@ -35,7 +35,7 @@ Bitcoin is a way for people to store monetary value into a digital asset. Like b
 	* They are immune to specifically-designed viruses that steal software wallets.
 	* Private keys never need to touch potentially vulnerable software
 	* Open source hardware wallets allow the user to validate the operation of the device.
-	* _Careful: There are a few potential problems with this method._
+	* *_Careful: There are a few potential problems with this method._*
 		* One, malware could swap the recipient Bitcoin address. While hardware keys can protect your private keys, they may not be able to protect you against the wrong recipient address.
 	
 		* Two, insecure Random Number Generators embedded on a hardware wallet could allow an attacker to re-create the private keys you've created and drain the funds.
