@@ -58,7 +58,7 @@ Bitcoin is a way for people to store monetary value into a digital asset. Like b
 	* Next, we'll create another wallet using Electrum, but this time it will be with multi-signature features.
 	* When you open Electrum again, you might get asked for the password of the first wallet you made. Since we're going to create a new wallet, type in a different name and the wizard should begin.
 	
-	![Creating a new wallet](multisignprompt.PNG)
+	![Creating a new wallet](multisigprompt.PNG)
 	* This time, instead of creating a standard wallet, we're going to create a multi-signature wallet. Change the option accordingly.
 	
 	![Wizard](multisig1.PNG)
