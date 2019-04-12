@@ -27,7 +27,7 @@ Bitcoin is a way for people to store monetary value into a digital asset. Like b
 	
 		* Promotes address reuse which could cause privacy issues, as your wallet's balance is public on the blockchain. 
 	
-		* The wallet is susceptible to physical damage, and if there are no multiple backups, you may lose access to your Bitcoins._
+		* The wallet is susceptible to physical damage, and if there are no multiple backups, you may lose access to your Bitcoins.
 	
 2. Hardware Wallets
 	* Hardware wallets are the step-up from paper wallets. They are devices that often look like USBs whose sole purpose is to keep Bitcoin wallets safe. They offer a variety of security features:
@@ -56,7 +56,7 @@ Bitcoin is a way for people to store monetary value into a digital asset. Like b
 	* In this tutorial, we will be using [Electrum](https://Electrum.org)
 	* First, we'll create a wallet. (You should know how to make one from the previous lab. Remember the seed.) 
 	* Next, we'll create another wallet using Electrum, but this time it will be with multisig.
-	[multisig1](multisig1.png)
+	![multisig1](multisig1.png)
 
 6. Survivability
 
