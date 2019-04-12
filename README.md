@@ -57,27 +57,35 @@ Bitcoin is a way for people to store monetary value into a digital asset. Like b
 	* First, we'll create a wallet. (You should know how to make one from the previous lab. Remember the seed.) 
 	* Next, we'll create another wallet using Electrum, but this time it will be with multi-signature features.
 	* When you open Electrum again, you might get asked for the password of the first wallet you made. Since we're going to create a new wallet, type in a different name and the wizard should begin.
+	
 	![Creating a new wallet](multisignprompt.PNG)
 	* This time, instead of creating a standard wallet, we're going to create a multi-signature wallet. Change the option accordingly.
+	
 	![Wizard](multisig1.PNG)
 	* Next, we need to set the number of co-signers. This is the total number of people that the wallet will be shared by. The signature requirement can only be equal or less than the number of co-signers. This means that for example, in a group of 10 co-signers and 3 required signatures, you'd only need any 3 people from the total 10 to make a transaction. You can make this as strict as possible and require 10 people out of 10 to sign before making a transaction happen, for example. 
+	
 	![Co-signers](multisig2.PNG)
 	* The wizard will then ask you about creating a new seed. You can do so in this screen if you haven't created more than one wallet yet. 
+	
 	![New seed](multisig3.PNG)
 	* We want this wallet to work no matter what, so we're going to keep Legacy support. 
+	
 	![Legacy](multisig4.PNG)
 	* Remember the seed, as it is the only way you can recover your wallet. You will also be asked to type it in again in the next prompt.
+	
 	![Seed](multisig5.PNG)
 	* You will be shown your public key, save it along the seed. 
 	* Afterward, you will have to add the second co-signer. Use the seed from the wallet you created in the beginner lab (not the one from the previous prompts) 
+	
 	![Second co-signer](cosigner.PNG)
-	* Create a password to encrypt your wallet within Electrum
+	* Create a password to encrypt your wallet within Electrum.
+	
 	![Password creation](password.PNG)
-	* Electrum should open to the wallet GUI, double check that the multi-signature wallet was successfully created by going into Wallet -> Information
+	* Electrum should open to the wallet GUI, double check that the multi-signature wallet was successfully created by going into Wallet -> Information.
+	
 	![Multi-signature information](multisiginfo.PNG)
 	
-
-6. Survivability
+	* Congratulations, you have created a multi-signature wallet.
 
 ## Credits
 Dr. Debasis Bhattacharya  
